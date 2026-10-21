@@ -10,21 +10,21 @@ function App() {
       name: 'Skate Profissional', 
       price: 499.90, 
       description: 'Deck de maple canadense com grip tape premium.',
-      image: '/assets/skate-pro.webp' 
+      image: `${import.meta.env.BASE_URL}assets/skate-pro.webp` 
     },
     { 
       id: 2, 
       name: 'Skate Iniciante', 
       price: 299.90, 
       description: 'Perfeito para quem está começando no mundo do skate.',
-      image: '/assets/skate-iniciante.webp' 
+      image: `${import.meta.env.BASE_URL}assets/skate-iniciante.webp` 
     },
     { 
       id: 3, 
       name: 'Skate Street', 
       price: 399.90, 
       description: 'Ideal para manobras urbanas e tricks.',
-      image: '/assets/skate-street.webp' 
+      image: `${import.meta.env.BASE_URL}assets/skate-street.webp` 
     }
   ]
 

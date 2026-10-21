@@ -2,7 +2,7 @@ import React from 'react'
 import '../styles/App.css'
 
 interface Product {
-  id: number
+  id?: number
   name: string
   price: number
   description: string
@@ -20,7 +20,7 @@ export const ProductCard: React.FC<Product> = ({
 
   return (
     <article className="product-card">
-      <img src={image} alt={`Skate ${name}`} loading="lazy" />
+      <img src={image} alt={`Skate ${name}`} loading="lazy" onError={(e) => { e.currentTarget.style.display = 'none' }} />
       <h3 className="product-name">{name}</h3>
       <p className="product-description">{description}</p>
       <div className="product-price">{formatPrice(price)}</div>

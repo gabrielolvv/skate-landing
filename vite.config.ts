@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/', // Para GitHub Pages na raiz do repo
+  base: '/skate-landing/', // GitHub Pages: o site fica em gabrielolvv.github.io/skate-landing/
 })
