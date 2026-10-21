@@ -1,0 +1,22 @@
+{
+  "colors": {
+    "primary": "#FF6B35",
+    "secondary": "#2D9CDB",
+    "text": "#1A1A1A",
+    "background": "#FFFFFF",
+    "accent": "#4CAF50",
+    "error": "#E74C3C"
+  },
+  "typography": {
+    "fontFamily": "'Inter', sans-serif",
+    "fontSizeBase": "16px",
+    "lineHeight": "1.5",
+    "headingSizes": ["2rem", "1.75rem", "1.5rem"]
+  },
+  "spacing": {
+    "sm": "0.5rem",
+    "md": "1rem",
+    "lg": "2rem",
+    "xl": "4rem"
+  }
+}
